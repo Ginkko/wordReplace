@@ -1,5 +1,4 @@
 var wordReplace = function(input, target, replacement) {
-  var finalOutput = ""
   input = input.split(" ");
 
   for(var i = 0; i < input.length; i++) {
@@ -8,7 +7,7 @@ var wordReplace = function(input, target, replacement) {
     };
   };
 
-  finalOutput = input.join(" ");
-  return finalOutput
+  return input.join(" ");
+
 
 };
