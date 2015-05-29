@@ -8,8 +8,7 @@ var wordReplace = function(input, target, replacement) {
     };
   };
 
-
-  finalOutput = input.join();
+  finalOutput = input.join(" ");
   return finalOutput
 
 };
