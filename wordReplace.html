@@ -8,29 +8,38 @@
     <title>Word Replace</title>
   </head>
   <body>
-    <div class="container jumbotron">
-        <h1>Word Replace</h1>
-        <div class="col-md-12 text-center">
-        <form id="wordReplace">
-          <div class="form-group">
+    <div class="container">
+      <h1>Word Replace</h1>
+      <div class="form-group">
+        <div class="col-md-6 col-md-offset-2 text-left">
+          <form id="wordReplace">
             <label for="sentence">Enter your starting sentence:</label>
-            <input type="text" id="sentence" autofocused required>
-            <label for="target">Enter the word you want to replace:</label>
-            <input type="text" id="target" required>
-            <label for="replacement">Enter the replacement word:</label>
-            <input type="text" id="replacement" required>
-          </div>
         </div>
-
-          <div class="col-md-12 center-block">
-            <br>
-            <button class = "btn btn-info center-block">Replace!</button>
-          </div>
-        </form>
-        <div id="result">
-          <br>
-          <span class="result"></span>
+        <div class="col-md-2 text-right">
+          <input type="text" id="sentence" autofocused required>
         </div>
+        <div class="col-md-6 col-md-offset-2 text-left">
+          <label for="target">Enter the word you want to replace:</label>
+        </div>
+        <div class="col-md-2 text-right">
+          <input type="text" id="target" required>
+        </div>
+        <div class="col-md-6 col-md-offset-2 text-left">
+          <label for="replacement">Enter the replacement word:</label>
+        </div>
+        <div class="col-md-2 text-right">
+          <input type="text" id="replacement" required>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <br>
+        <button class = "btn btn-info center-block">Replace!</button>
+      </div>
+          </form>
+      <div id="result">
+        <br>
+        <span class="result"></span>
+      </div>
     </div>
   </body>
 </html>
