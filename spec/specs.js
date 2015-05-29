@@ -8,5 +8,4 @@ describe("wordReplace", function() {
   it("supports mutiple word inputs.", function() {
     expect(wordReplace("doot doot loot loot", "doot", "mute")).to.equal("mute mute loot loot");
   });
-
 });

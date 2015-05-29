@@ -8,7 +8,6 @@ var wordReplace = function(input, target, replacement) {
   };
 
   return input.join(" ");
-
 };
 
 $(document).ready(function() {
